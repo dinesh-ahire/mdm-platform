@@ -1,0 +1,20 @@
+CREATE TABLE CONFIG.CONFIG_STANDARDIZATION_RULES
+(
+    RULE_ID                 NUMBER AUTOINCREMENT,
+
+    ATTRIBUTE_NAME          VARCHAR,
+
+    STANDARD_FUNCTION       VARCHAR,
+
+    REFERENCE_TABLE         VARCHAR,
+
+    REGEX_PATTERN           VARCHAR,
+
+    EXECUTION_ORDER         NUMBER,
+
+    ACTIVE_FLAG             BOOLEAN,
+
+    CREATED_TS              TIMESTAMP
+)
+
+COMMENT='Metadata-driven standardization rules.';

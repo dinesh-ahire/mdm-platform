@@ -1,0 +1,12 @@
+CREATE TABLE CONFIG.CONFIG_PIPELINE_PARAMETERS
+(
+    PARAMETER_NAME          VARCHAR,
+
+    PARAMETER_VALUE         VARCHAR,
+
+    DESCRIPTION             VARCHAR,
+
+    UPDATED_TS              TIMESTAMP
+)
+
+COMMENT='Global platform configuration.';
