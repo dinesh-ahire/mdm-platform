@@ -28,7 +28,8 @@ The platform is designed using Snowflake-native capabilities and follows enterpr
 
 ## 🏗 Architecture
 
-> *(Insert Diagram 1 here)*
+> <img width="7559" height="5581" alt="Enterprise Solution Architecture Flowchart" src="https://github.com/user-attachments/assets/1a7c67d3-ced7-429f-b12d-c221be4c8c3a" />
+
 
 ![Architecture](docs/images/architecture.png)
 
